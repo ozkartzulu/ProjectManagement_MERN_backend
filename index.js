@@ -51,7 +51,6 @@ const io = new Server(server, {
 })
 
 io.on('connection', (socket) => {
-    // console.log('Connected to socket.io')
 
     // Define the events of socket.io
    socket.on('send project', (id) => {
